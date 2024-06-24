@@ -73,21 +73,20 @@
 
 1. **`Axios:`** Librería para realizar solicitudes HTTP desde el cliente hacia el servidor.
 
-2. `**JSON Server:**` Herramienta para simular una API REST utilizando un archivo JSON como base de datos.
+2. **`JSON Server:`** Herramienta para simular una API REST utilizando un archivo JSON como base de datos.
 
 
 
 ## Funciones de JavaScript usados en main.js
 
-1. `readUsers():` Lee y muestra los usuarios desde la API utilizando Axios.
-2. `createRow(user, index):` Crea una fila en la tabla para cada usuario.
-3. `deleteButtonClickHandler(event):` Maneja el evento de clic en el botón "Eliminar" para eliminar usuarios.
-4. `renumberRows():` Renueva los números de las filas después de eliminar un usuario.
-5. `addUsers(user):` Agrega un nuevo usuario a la tabla y a la API.
-6. `obtenerCodigoPais(nombrePais):` Obtiene el código ISO-3166-1 alpha-2 del país utilizando REST Countries API.
-7. `traducirANombreIngles(nombrePais):` Traduce el nombre del país al inglés utilizando la API de traducción mymemory.translated.net.
+1. **`readUsers():`** Lee y muestra los usuarios desde la API utilizando Axios.
+2. **`createRow(user, index):`** Crea una fila en la tabla para cada usuario.
+3. **`deleteButtonClickHandler(event):`** Maneja el evento de clic en el botón "Eliminar" para eliminar usuarios.
+4. **`renumberRows():`** Renueva los números de las filas después de eliminar un usuario.
+5. **`addUsers(user):`** Agrega un nuevo usuario a la tabla y a la API.
+6. **`obtenerCodigoPais(nombrePais):`** Obtiene el código ISO-3166-1 alpha-2 del país utilizando REST Countries API.
+7. **`traducirANombreIngles(nombrePais):`** Traduce el nombre del país al inglés utilizando la API de traducción mymemory.translated.net.
 
 ## RESULTADO DE PROYECTO
-
 
 ![Demo](https://i.ibb.co/Bqhxvx7/register-user.gif)
