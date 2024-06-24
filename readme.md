@@ -89,4 +89,4 @@
 
 ## RESULTADO DE PROYECTO
 
-![Demo](https://i.ibb.co/Bqhxvx7/register-user.gif)
+![Demo](https://i.ibb.co/TbQSbXP/vite-01.webp)
