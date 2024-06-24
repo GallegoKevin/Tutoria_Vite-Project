@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+  <title>Vite App</title>
+</head>
+<body>
+
+<main>
+  <article class="card">
+    <h2 class="title-add">AGREGAR USUARIOS</h2>
+    <form id="form-users">
+      <div>
+        <label for="firstName">Nombres : </label>
+        <input type="text" id="firstName" placeholder="Ingresar el nombre" required>
+      </div>
+      <div>
+        <label for="lastname">Apellidos : </label>
+        <input type="text" id="lastname" placeholder="Ingresar el apellido" required>
+      </div>
+      <div>
+        <label for="country">País : </label>
+        <input type="text" id="country" placeholder="Ingresar el país" required>
+      </div>
+      <div>
+        <button type="submit" class="button-add">Agregar</button>
+      </div>
+    </form>
+  </article>
+
+  <article class="items">
+    <table id="table-user">
+      <caption>Tabla de Usuarios</caption>
+      <thead>
+        <tr>
+          <th scope="col" class="number">#</th>
+          <th scope="col">Nombres</th>
+          <th scope="col">Apellidos</th>
+          <th scope="col">País</th>
+          <th scope="col">Bandera</th> <!-- Nueva columna para la bandera -->
+          <th scope="col">ID</th>
+          <th scope="col">Acción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Contenido dinámico generado por JavaScript -->
+      </tbody>
+    </table>
+  </article>
+</main>
+
+<script type="module" src="/main.js"></script>
+</body>
+</html>
