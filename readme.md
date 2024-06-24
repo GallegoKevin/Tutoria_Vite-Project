@@ -73,7 +73,7 @@
 
 1. **`Axios:`** Librería para realizar solicitudes HTTP desde el cliente hacia el servidor.
 
-2. **`JSON Server:`** Herramienta para simular una API REST utilizando un archivo JSON como base de datos.
+2. `**JSON Server:**` Herramienta para simular una API REST utilizando un archivo JSON como base de datos.
 
 
 
