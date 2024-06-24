@@ -1,4 +1,4 @@
-# REGISTRO DE USUARIOS (Nombre, Apellidos y País)
+# REGISTRO DE USUARIOS
 
 ![Texto Alternativo](https://i.ibb.co/NCXjktp/proyecto-1.png)
 
