@@ -61,19 +61,19 @@
 
 ## Funcionalidades del proyecto :
 
-1. `Mostrar Usuarios:` Al cargar la página, se solicita y muestra la lista actual de usuarios desde http://localhost:3000/users.
+1. **`Mostrar Usuarios:`** Al cargar la página, se solicita y muestra la lista actual de usuarios desde http://localhost:3000/users.
 
-2. `Agregar Usuario:` Mediante un formulario HTML, se pueden agregar nuevos usuarios ingresando su nombre, apellido y país.
+2. **`Agregar Usuario:`** Mediante un formulario HTML, se pueden agregar nuevos usuarios ingresando su nombre, apellido y país.
 
-3. `Eliminar Usuario:`  Cada usuario en la lista tiene un botón "Eliminar" que, al hacer clic, elimina el usuario correspondiente de la lista y de la base de datos simulada.
+3. **`Eliminar Usuario:`**  Cada usuario en la lista tiene un botón "Eliminar" que, al hacer clic, elimina el usuario correspondiente de la lista y de la base de datos simulada.
 
-4. `Mostrar Bandera del País:` Para cada usuario mostrado en la tabla, se obtiene dinámicamente la bandera del país utilizando la API de REST Countries.
+4. **`Mostrar Bandera del País:`** Para cada usuario mostrado en la tabla, se obtiene dinámicamente la bandera del país utilizando la API de REST Countries.
 
 ## Tecnologías Utilizadas
 
-1. `Axios:` Librería para realizar solicitudes HTTP desde el cliente hacia el servidor.
+1. **`Axios:`** Librería para realizar solicitudes HTTP desde el cliente hacia el servidor.
 
-2. `JSON Server:` Herramienta para simular una API REST utilizando un archivo JSON como base de datos.
+2. **`JSON Server:`** Herramienta para simular una API REST utilizando un archivo JSON como base de datos.
 
 
 
